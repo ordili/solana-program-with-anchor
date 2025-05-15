@@ -10,7 +10,7 @@ use anchor_client::{
 #[test]
 fn test_initialize() {
     let program_id = "7MtMDbYQxhjkqWPoZT1szVSeWwaGUMUJzYnHMs1jD8Wq";
-    let anchor_wallet = std::env::var("ANCHOR_WALLET").unwrap();
+    let anchor_wallet = "/home/gidon/.config/solana/id.json".to_string();
     let payer = read_keypair_file(&anchor_wallet).unwrap();
 
     let client = Client::new_with_options(Cluster::Localnet, &payer, CommitmentConfig::confirmed());
