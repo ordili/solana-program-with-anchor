@@ -5,7 +5,7 @@ use anchor_lang::prelude::*;
 declare_id!("YahmvUUTTjfWTvtBd4PVUow8H6sg1aVvNTkgrXHnn2a");
 
 #[program]
-pub mod counter_anchor {
+pub mod counter {
     use super::*;
 
     pub fn initialize_counter(_ctx: Context<InitializeCounter>) -> Result<()> {
