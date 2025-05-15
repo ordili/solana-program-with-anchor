@@ -5,6 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
+counter = "YahmvUUTTjfWTvtBd4PVUow8H6sg1aVvNTkgrXHnn2a"
 solana_program_with_anchor = "7MtMDbYQxhjkqWPoZT1szVSeWwaGUMUJzYnHMs1jD8Wq"
 
 [registry]
